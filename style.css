@@ -1,0 +1,907 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: OpenSans-Bold, OpenSans-Regular , sans-serif;
+}
+
+.main_play-college {
+    background-size: cover;
+    background-position: center;
+    background-color: #0a0e34;
+    background-image: linear-gradient(to right, rgba(10, 14, 52, 0.9) 0%, rgba(10, 14, 52, 0.9) 100%), url(img/football_1920.jpg);
+    color:#ffffff;  
+}
+.surface_logo{
+    padding-top: 50px;
+    padding-bottom: 282px;
+    text-align: center;
+}
+.surface_logo__icon{
+    width: 190px;
+    fill: #ffffff;
+    
+}
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    padding-left: 9.2%;
+    line-height: 1;
+}
+h1 span{
+    padding-left: 26.5%;
+    
+}
+.download {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-top: 210px;
+    padding-bottom: 110px;
+
+}
+.app_store {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    width: 312px;
+    height: 77px;
+    border-radius: 50px;
+    background-color: #5e42b0;
+}
+.app__icon {
+    width: 48px;
+    height: 48px;
+    margin-left: 10%;
+    fill: #ffffff;
+    margin-top: 11px;
+}
+.app_store__download-label{
+    color: #ffffff;
+}
+.text {
+    text-transform: uppercase;
+    margin-left: 23px;
+    margin-top: 23px;
+}
+.google_play {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    width: 312px;
+    height: 77px;
+    border-radius: 50px;
+    margin-left: 50px;
+    background-color: #5e42b0;
+}
+.google__icon{
+    width: 46px;
+    height: 48px;
+    margin-left: 17%;
+    fill: #ffffff;
+    margin-top: 14px;
+    
+}
+.google_play_download-label{
+    color: #ffffff;
+}
+.athlets{
+    position: relative; 
+    width: 100%;
+}
+.footballer{
+    position: absolute;
+    top: 30px;
+    left: 20.3%;
+}
+h2 {
+    font-size: 80px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    padding-top: 102px;
+    padding-left: 52.6%;
+    padding-bottom: 20px;
+}
+.number {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+.number::before{
+    display: block;
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background-color: #5e42b0;
+    bottom: 0;
+}
+h3{
+    font-size: 36px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-left: 12px;
+}
+
+.paragraph{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 52.5%;
+    padding-right: 10%;
+    padding-top: 61px;
+    padding-bottom: 17px;
+    letter-spacing: 1.5px;
+    
+
+}
+.paragraph__description {
+    font-size: 20px;
+    padding-left: 52.5%;
+    padding-right: 10%;
+    padding-bottom: 42px;
+    line-height: 1.5;
+    letter-spacing: 1.6px;
+}
+.block__02 {
+    background-color: #f6f4fa;
+}
+.block__03 {
+    background-color: #5e42b0;
+
+}
+.block__03 .number::before {
+    background-color: #f6f4fa;
+}
+.players{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.basketball{
+    position: absolute;
+    top: 30px;
+    left: 42%;
+}
+.players h2{
+    padding-left: 9.3%;
+    padding-top: 110px;
+    padding-bottom: 22px;
+    
+}
+.players .paragraph {
+    padding-left: 9.5%;
+    padding-right: 51%;
+}
+.players .paragraph__description   {
+    padding-left: 9.5%;
+    padding-right: 51%;
+}
+.block__05{
+    background-color: #f5f6f7;
+
+}
+.block__05 .paragraph__description {
+    padding-top: 9px;
+    padding-bottom: 84px;
+}
+.block__06{
+    background-color: #0a0e34;
+}
+.block__06 .number::before {
+    background-color: #f6f4fa;
+}
+.block__06 .number{
+    color: #5e42b0;
+}
+.block__06 .paragraph__description {
+    color: #c1c1c1;
+    padding-bottom: 55px;
+}
+.block__06 .paragraph {
+    padding-top: 51px;
+}
+/* .gallery{
+    position: relative;
+} */
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallery ul li{
+    display: flex;
+    width: 100%;
+    height: 725px;
+}
+li .img__gallery{
+    width: 50%;
+
+}
+.img__gallery img {
+    display: block;
+    width: 100%;
+    height: 725px;
+}
+.card {
+    width: 50%;
+    height: 10%;
+    
+}
+.card h3{
+    font-size: 80px;
+    margin: 0;
+    padding-top: 243px;
+    padding-left: 121px;
+    padding-right: 215px;
+    padding-bottom: 96px;
+     
+}
+.card p{
+    font-size: 24px;
+    padding-left: 127px;
+    padding-right: 200px;
+    letter-spacing: 1.6px;
+    
+}
+.gallery ul li.contact{
+    height: 730px;
+}
+.gallery ul li.contact .img__gallery img {
+    height: 730px;
+}
+.contact .card .card__headline {
+    padding-left: 178px;
+    padding-top: 247px;
+    padding-right: 100px;
+    padding-bottom: 54px;
+}
+.contact .card p {
+    padding-right: 50px;
+    padding-left: 180px;
+}
+.square {
+    position: absolute;
+    width: 20px;
+    height: 13px;
+    margin-left: 45.5%;
+    margin-top: 11%;
+    padding-left: 3.9%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 4.3%;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #5e42b0;
+    z-index: 10;  
+}
+.square::before{
+    display: block;
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 30px;
+    background-color: #8f7bc8;
+    bottom: 37%;
+}    
+
+
+
+
+
+
+
+
+
+.footer {
+    background-size: cover;
+    background-position: center;
+    background-color: #0a0e34;
+    background-image: linear-gradient(to right, rgba(10, 14, 52, 0.9) 0%, rgba(10, 14, 52, 0.9) 100%), url(img/game_1920.jpg);
+}
+.footer__headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 235px;
+}
+.footer__text {
+    padding-right: 70px;
+}
+.footer__text span{
+    font-size: 30px;
+    color: #a496ca;
+    text-transform: uppercase;
+}
+.footer__text h2{
+    padding: 0;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+.footer__headline .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 135px;
+    background-color: #5e42b0;
+    border-radius: 30px;
+    margin-right: 34px;
+    margin-left: 50px;
+}
+.logo svg{
+    fill: #ffffff;
+    height: 85px;
+}
+.footer .download{
+    padding: 0;
+    margin-top: 150px;
+    margin-bottom: 264px;
+}
+.footer .surface_logo{
+    padding-top: 0;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+
+@media (min-width: 641px) and (max-width: 960px){
+    .main_play-college {
+        background-image: linear-gradient(to right, rgba(10, 14, 52, 0.9) 0%, rgba(10, 14, 52, 0.9) 100%), url(img/football_1280.jpg);
+
+    }
+    .surface_logo{
+        padding-top: 20px;
+        padding-bottom: 168px;
+    }
+    .surface_logo__icon{
+        width: 205px;
+    }
+    .headline {
+        padding-left: 12%;
+    }
+    h1 {
+        font-size: 64px;
+        padding-left: 0;
+        line-height: 1.2;
+    }
+    h1 span{
+        padding-left: 15%;
+        
+    }
+    .download {
+        padding-top: 294px;
+        padding-bottom: 90px;
+    }
+    .google_play{
+        margin-left: 30px;
+    }
+
+    .footballer{
+        top: 96px;
+        left: -21%;
+    }
+    .footballer img{
+        height: 700px;
+    }
+    h2{
+        font-size: 80px;
+        padding-top: 75px;
+        padding-left: 38%;
+        padding-bottom: 20px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    .paragraph{
+        padding-left: 38%;
+        padding-right: 6%;
+        padding-top: 12px;
+        padding-bottom: 25px;
+    }
+    .paragraph__description {
+        font-size: 16px;
+        padding-left: 38%;
+        padding-bottom: 58px;
+        padding-right: 10px;
+    }
+    .block__02 .paragraph__description{
+        padding-bottom: 45px;
+    }
+    .block__03 .paragraph{
+        padding-top: 34px;
+    }
+    .block__03 .paragraph__description{
+        padding-bottom: 10px;
+    } 
+    .basketball {
+        left: 43%;
+        top: 37px;
+    }
+    .basketball img{
+        height: 570px;
+    }
+    .players h2{
+        padding-left: 4.4%;
+        padding-top: 70px;
+        
+    }
+    .players .paragraph {
+        padding-left: 4.5%;
+        padding-right: 46%;
+    }
+    .players .paragraph__description   {
+        padding-left: 4.5%;
+        padding-right: 42%;
+    }
+    .block__05 .paragraph__description{
+        padding-bottom: 35px;
+    }
+    .block__06 .paragraph {
+        padding-top: 33px;
+    }
+    .block__06 .paragraph__description{
+        padding-bottom: 35px;
+    }
+
+
+
+
+
+    
+    .gallery{
+        position: relative;
+    }
+    .gallery ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .gallery ul li{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    li .img__gallery{
+        width: 100%;
+    
+    }
+    .img__gallery img {
+        display: block;
+        width: 100%;
+        height: 586px;
+    }
+
+    .card {
+        width: 100%;
+        
+    }
+    .card h3{
+        font-size: 80px;
+        margin: 0;
+        padding-top: 76px;
+        padding-left: 4.5%;
+        padding-right: 10%;
+        padding-bottom: 15px;
+         
+    }
+    .card p{
+        font-size: 24px;
+        padding-left: 4%;
+        padding-right: 10%;
+        
+    }
+    .contact .card{
+        order: 1;
+    }
+    .contact .img__gallery{
+        order: 0;
+        padding-top: 198px;
+    }
+    .gallery ul li.contact .img__gallery img{
+        height: 584px;
+    }
+    .contact .card .card__headline {
+        font-size: 80px;
+        margin: 0;
+        padding-top: 66px;
+        padding-left: 4%;
+        padding-right: 10%;
+        padding-bottom: 15px;
+    }
+    .contact .card p {
+        font-size: 24px;
+        padding-left: 4.5%;
+        padding-right: 10%;
+    }
+    .contact .square{
+        margin-top: 90%;
+    }
+
+    .work_it .img__gallery {
+        padding-top: 384px;
+    }
+    .work_it .square {
+        margin-top: 115%;
+    }
+    .square {
+        position: absolute;
+        width: 31px;
+        height: 44px;
+        margin-left: 4%;
+        margin-top: 66%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #5e42b0;
+        z-index: 10;  
+    }
+    .square::before{
+        display: block;
+        position: absolute;
+        content: "";
+        height: 5px;
+        width: 30px;
+        background-color: #8f7bc8;
+        bottom: 32%;
+    
+    }
+    .card .active {
+        height: 700px;
+    }
+    .footer {
+        background-image: linear-gradient(to right, rgba(10, 14, 52, 0.9) 0%, rgba(10, 14, 52, 0.9) 100%), url(img/game_1280.jpg);
+    }
+    .footer__headline {
+        flex-wrap: wrap;
+        padding-top: 740px;
+    }
+    .footer__headline .logo {
+        margin-bottom: 80px;
+    }
+    .footer__text span{
+        font-size: 36px;
+    }
+    .footer .download{
+        padding: 0;
+        margin-top: 285px;
+        margin-bottom: 55px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .main_play-college {
+        background-image: linear-gradient(to right, rgba(10, 14, 52, 0.9) 0%, rgba(10, 14, 52, 0.9) 100%), url(img/football_767.jpg);
+
+    }
+    .surface_logo{
+        padding-top: 35px;
+        padding-bottom: 135px;
+    }
+    .surface_logo__icon{
+        width: 135px;
+    }
+    .headline {
+        padding-left: 6%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h1 span{
+        padding-left: 0px;
+    }
+    .download {
+        font-size: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+    .app_store {
+        width: 280px;
+        height: 35px;
+    }
+    .app__icon {
+        width: 41px;
+        height: 25px;
+        margin-top: 3px;
+    }
+    .text {
+        text-transform: uppercase;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .google_play {
+        width: 280px;
+        height: 35px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .google__icon {
+        width: 41px;
+        height: 25px;
+        margin-top: 3px;
+    }
+    .google_play .text {
+        margin-right: 25px;
+    }
+    .athlets{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footballer{
+        position: absolute;
+        top: 80px;
+        left: 20.5%;
+        order: 1;
+    }
+    .footballer img {
+        height: 280px;
+        order: 1;
+        
+    }
+    h2 {
+        font-size: 50px;
+        padding-top: 25px;
+        padding-left: 6%;
+        padding-bottom: 0px;
+        margin-bottom: 225px;
+
+    }
+    .block__01 {
+        order: 2;
+        background-color: #fafafa;
+    }
+    .block__02 {
+        order: 2;
+    }
+    .block__03 {
+        order: 2;
+        color: #c1c1c1;
+    }
+    .block__03 .number{
+        color: #000;
+    }
+    .number {
+        height: 18px;
+        width: 15px;
+        font-size: 14px;
+        margin-top: 64px;
+    }
+    .number::before{
+        height: 3px;
+        width: 15px;
+    }
+    h3 {
+        font-size: 23px;
+        padding-top: 60px;
+        margin-left: 10px;
+    }
+    .paragraph {
+        padding-left: 6%;
+        padding-top: 0px;
+    }
+    .paragraph__description {
+        font-size: 15px;
+        padding-left: 6%;
+        padding-bottom: 55px;
+    }
+    .basketball{
+        position: absolute;
+        top: 90px;
+        left: 4%;
+    }
+    .basketball img {
+        height: 250px;
+    }
+    .players h2{
+        font-size: 50px;
+        padding-top: 25px;
+        padding-left: 6%;
+        padding-bottom: 0px;
+        margin-bottom: 225px;
+        
+    }
+    .players .paragraph {
+        padding-left: 6%;
+        padding-top: 0px;
+        padding-right: 0;
+    }
+    .players .paragraph__description   {
+        font-size: 15px;
+        padding-left: 6%;
+        padding-bottom: 55px;
+        padding-right: 0;
+    }
+    .gallery{
+        position: relative;
+    }
+    .gallery ul{
+        display: flex;
+        flex-wrap: wrap;
+  
+    }
+    .gallery ul li{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    li .img__gallery{
+        width: 100%;
+    
+    }
+    .img__gallery img {
+        display: block;
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        
+    }
+    .card h3{
+        font-size: 28px;
+        margin: 0;
+        padding-top: 35px;
+        padding-left: 6%;
+        padding-right: 0;
+        padding-bottom: 30px;
+         
+    }
+    .card p{
+        font-size: 16px;
+        padding-left: 6%;
+        padding-right: 0;
+        padding-bottom: 80px;
+        
+    }
+    .contact .card{
+        order: 1;
+    }
+    .contact .img__gallery{
+        order: 0;
+    }
+    .square {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-left: 6%;
+        margin-top: 97%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #5e42b0;
+        z-index: 10;  
+    }
+    .square::before{
+        display: block;
+        position: absolute;
+        content: "";
+        height: 5px;
+        width: 30px;
+        background-color: #8f7bc8;
+        bottom: 32%;
+    }
+    .footer__headline {
+        flex-wrap: wrap;
+        padding-top: 100px;
+    }
+    .footer__headline .logo {
+        margin-bottom: 60px;
+        margin-right: 0;
+        width: 75px;
+        height: 75px;
+        border-radius: 20px;
+    }
+    .logo svg{
+        height: 50px;
+    }
+    .footer {
+        background-image: linear-gradient(to right, rgba(10, 14, 52, 0.9) 0%, rgba(10, 14, 52, 0.9) 100%), url(img/game_767.jpg);
+    }
+    .footer__text {
+        text-align: center;
+    }
+    .footer__text h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .footer__text span{
+        font-size: 14px;
+    }
+    .footer .download{
+        padding: 0;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .footer .surface_logo {
+        padding-bottom: 10px;
+    }
+
+}
+/* mwcmweocm */
+@media (min-width: 961px) and (max-width: 1650px){
+    .footballer{
+        left: -5%;
+    }    
+
+}
+
+
+@media (min-width: 1415px) and (max-width: 1650px){
+    .card h3{
+        font-size: 70px;
+        padding-top: 15%;
+        padding-bottom: 10%;
+         
+    }
+    .card p{
+        font-size: 20px;
+        
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1414px){
+    .card h3{
+        font-size: 52px;
+        padding-top: 10%;
+        padding-bottom: 8%;
+        padding-left: 90px;
+        padding-right: 100px;
+         
+    }
+    .card p{
+        font-size: 16px;
+        padding-left: 90px;
+        padding-right: 100px;
+        
+    }
+}
+@media (min-width: 1171px) and (max-width: 1595px){
+    h1 {
+        font-size: 75px;
+        padding-left: 10%;
+    }
+    h1 span{
+        padding-left: 12%;
+    }
+}
+@media (min-width: 961px) and (max-width: 1170px){
+    h1 {
+        font-size: 65px;
+        padding-left: 10%;
+    }
+    h1 span{
+        padding-left: 5%;
+    }
+}
