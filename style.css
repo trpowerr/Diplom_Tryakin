@@ -199,10 +199,12 @@ h3{
 }
 .block__03 {
     background-color: #5e42b0;
-
 }
 .block__03 .number::before {
     background-color: #f6f4fa;
+}
+.block__03 .paragraph__description{
+    color: #fff;
 }
 .players{
     overflow: hidden;
