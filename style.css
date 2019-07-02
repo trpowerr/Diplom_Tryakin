@@ -256,20 +256,18 @@ h3{
 .gallery ul li{
     display: flex;
     width: 100%;
-    height: 730px;
 }
 li .img__gallery{
     width: 50%;
-
+    height: 730px;
 }
 .img__gallery img {
     width: 100%;
     height: 730px;
+    object-fit: cover;
 }
 .card {
     width: 50%;
-    height: 10%;
-    
 }
 .card h3{
     font-size: 80px;
