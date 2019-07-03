@@ -4,11 +4,11 @@
     
     src:
     
-    url(/fonts/OpenSans-Bold.woff) format('woff'),
+    url(./fonts/OpenSans-Bold.woff) format('woff'),
     
-    url(/fonts/OpenSans-Bold.ttf) format('truetype'),
+    url(./fonts/OpenSans-Bold.ttf) format('truetype'),
     
-    url(/fonts/OpenSans-Bold.woff2) format('woff2');
+    url(./fonts/OpenSans-Bold.woff2) format('woff2');
     
     font-weight: bold;
     
@@ -21,11 +21,11 @@
         
     src:
         
-    url(/fonts/OpenSans-Regular.woff) format('woff'),
+    url(./fonts/OpenSans-Regular.woff) format('woff'),
         
-    url(/fonts/OpenSans-Regular.ttf) format('truetype'),
+    url(./fonts/OpenSans-Regular.ttf) format('truetype'),
         
-    url(/fonts/OpenSans-Regular.woff2) format('woff2');
+    url(./fonts/OpenSans-Regular.woff2) format('woff2');
         
     font-weight: normal;
         
@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
 body {
-    font-family: 'OpenSans-Bold', 'OpenSans-Regular' , sans-serif;
+    font-family: 'OpenSans' , sans-serif;
 }
 .main_play-college {
     background-size: cover;
@@ -73,6 +73,7 @@ h1 {
 }
 h1 span{
     padding-left: 26.5%;
+
     
 }
 .download {
@@ -105,6 +106,9 @@ h1 span{
     text-transform: uppercase;
     margin-left: 23px;
     margin-top: 23px;
+}
+.text span {
+    font-weight: 700;
 }
 .google_play {
     display: flex;
@@ -259,12 +263,12 @@ h3{
 }
 li .img__gallery{
     width: 50%;
-    height: 730px;
+    /* height: 730px; */
 }
 .img__gallery img {
-    width: 100%;
-    height: 730px;
-    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .card {
     width: 50%;
@@ -300,8 +304,8 @@ li .img__gallery{
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 166px;
-    height: 155px;
+    width: 8.75%;
+    height: 7%;
     margin-left: 45.5%;
     margin-top: 11%;
     font-size: 24px;
@@ -496,7 +500,7 @@ li .img__gallery{
     }
     .img__gallery img {
         width: 100%;
-        height: 585px;
+        height: 585px; 
     }
 
     .card {
@@ -919,6 +923,18 @@ li .img__gallery{
         font-size: 20px;
         
     }
+    .contact .card .card__headline {
+        font-size: 70px;
+        padding-top: 15%;
+        padding-bottom: 10%;
+        padding-left: 12%;
+        
+    }
+    .contact .card p {
+        padding-right: 50px;
+        padding-left: 12%;
+        padding-right: 10%;
+    }
 }
 @media (min-width: 961px) and (max-width: 1414px){
     .card h3{
@@ -933,7 +949,19 @@ li .img__gallery{
         font-size: 16px;
         padding-left: 90px;
         padding-right: 100px;
+    }
+    .contact .card .card__headline {
+        font-size: 52px;
+        padding-top: 10%;
+        padding-bottom: 8%;
+        padding-left: 12%;
         
+    }
+    .contact .card p {
+        font-size: 16px;
+        padding-right: 50px;
+        padding-left: 12%;
+        padding-right: 13%;
     }
 }
 @media (min-width: 1171px) and (max-width: 1595px){
