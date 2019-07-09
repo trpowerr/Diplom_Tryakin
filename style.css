@@ -1,6 +1,6 @@
 @font-face{
 
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans';
     
     src:
     
@@ -17,7 +17,7 @@
 }
 @font-face{
 
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
         
     src:
         
@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
 body {
-    font-family: 'OpenSans' , sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 .main_play-college {
     background-size: cover;
@@ -263,12 +263,12 @@ h3{
 }
 li .img__gallery{
     width: 50%;
-    /* height: 730px; */
 }
 .img__gallery img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 38vw;
+    object-fit: cover;
 }
 .card {
     width: 50%;
