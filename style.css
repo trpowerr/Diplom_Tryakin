@@ -196,7 +196,7 @@ h3{
     padding-right: 8%;
     padding-bottom: 50px;
     line-height: 1.5;
-    letter-spacing: 1.6px;
+    letter-spacing: 1px;
 }
 .block__02 {
     background-color: #f6f4fa;
@@ -390,7 +390,7 @@ li .img__gallery{
     }
     .surface_logo{
         padding-top: 20px;
-        padding-bottom: 168px;
+        padding-bottom: 160px;
     }
     .surface_logo__icon{
         width: 205px;
@@ -408,7 +408,7 @@ li .img__gallery{
         
     }
     .download {
-        padding-top: 297px;
+        padding-top: 303px;
         padding-bottom: 90px;
     }
     .google_play{
@@ -424,7 +424,7 @@ li .img__gallery{
     }
     h2{
         font-size: 80px;
-        padding-top: 90px;
+        padding-top: 83px;
         padding-left: 38%;
         padding-bottom: 20px;
     }
@@ -435,7 +435,7 @@ li .img__gallery{
         padding-left: 38%;
         padding-right: 6%;
         padding-top: 30px;
-        padding-bottom: 25px;
+        padding-bottom: 22px;
     }
     .paragraph__description {
         font-size: 16px;
@@ -449,9 +449,9 @@ li .img__gallery{
     .block__03 .paragraph{
         padding-top: 34px;
     }
-    .block__03 .paragraph__description{
+    /* .block__03 .paragraph__description{
         padding-bottom: 10px;
-    } 
+    }  */
     .basketball {
         left: 43%;
         top: 37px;
@@ -473,12 +473,12 @@ li .img__gallery{
     .block__05 .paragraph__description{
         padding-bottom: 45px;
     }
-    .block__06 .paragraph {
+    /* .block__06 .paragraph {
         padding-top: 33px;
     }
     .block__06 .paragraph__description{
         padding-bottom: 38px;
-    }
+    } */
     .gallery{
         position: static;
     }
@@ -509,17 +509,17 @@ li .img__gallery{
     .card h3{
         font-size: 80px;
         margin: 0;
-        padding-top: 73px;
-        padding-left: 4%;
+        padding-top: 61px;
+        padding-left: 3%;
         padding-right: 10%;
-        padding-bottom: 15px;
+        padding-bottom: 9px;
          
     }
     .card p{
         font-size: 24px;
-        padding-left: 4.5%;
+        padding-left: 4%;
         padding-right: 10%;
-        padding-bottom: 97px;
+        padding-bottom: 90px;
         
     }
     .contact .card{
@@ -534,32 +534,32 @@ li .img__gallery{
     .contact .card .card__headline {
         font-size: 80px;
         margin: 0;
-        padding-top: 62px;
-        padding-left: 4%;
+        padding-top: 54px;
+        padding-left: 3%;
         padding-right: 10%;
-        padding-bottom: 15px;
+        padding-bottom: 8px;
     }
     .contact .card p {
         font-size: 24px;
-        padding-left: 4.5%;
+        padding-left: 4%;
         padding-right: 10%;
-        padding-bottom: 104px;
+        padding-bottom: 99px;
     }
     .contact .square{
-        margin-top: 64%;
+        margin-top: 65%;
     }
     .work_it .card__headline{
-        padding-top: 62px;
+        padding-top: 54px;
     }
     .work_it .square {
         margin-top: 65%;
     }
     .work_it p {
-        padding-bottom: 111px;
+        padding-bottom: 95px;
     }
     .square {
-        width: 116px;
-        height: 116px;
+        width: 115px;
+        height: 117px;
         margin-left: 4%;
         margin-top: 66%;
         font-size: 24px;
@@ -589,7 +589,7 @@ li .img__gallery{
         padding-top: 130px;
     }
     .footer__headline .logo {
-        margin-bottom: 70px;
+        margin-bottom: 63px;
         margin-right: 48px;
     }
     .footer__text {
@@ -597,7 +597,7 @@ li .img__gallery{
     }
     .footer__text h2 {
         padding-right: 13px;
-        padding-left: 28px;
+        padding-left: 8px;
         letter-spacing: 5px;
     }
     .footer__text span{
@@ -692,10 +692,10 @@ li .img__gallery{
     }
     h2 {
         font-size: 50px;
-        padding-top: 27px;
+        padding-top: 22px;
         padding-left: 6%;
-        padding-bottom: 0px;
-        margin-bottom: 242px;
+        padding-bottom: 246px;
+        /* margin-bottom: 242px; */
 
     }
     .block__01 {
@@ -733,15 +733,15 @@ li .img__gallery{
     .paragraph {
         padding-left: 6%;
         padding-top: 60px;
-        padding-bottom: 24px;
+        padding-bottom: 20px;
         
     }
     .paragraph__description {
         font-size: 15px;
         padding-left: 6%;
-        padding-bottom: 36px;
-        padding-right: 8%;
-        letter-spacing: 1px;
+        padding-bottom: 50px;
+        padding-right: 6%;
+        letter-spacing: 0px;
     }
     .basketball{
         position: absolute;
@@ -753,22 +753,27 @@ li .img__gallery{
     }
     .players h2{
         font-size: 50px;
-        padding-top: 23px;
-        padding-left: 5%;
-        padding-bottom: 0px;
-        margin-bottom: 242px;
+        padding-top: 22px;
+        padding-left: 6%;
+        padding-bottom: 246px;
+        /* margin-bottom: 242px; */
         
     }
     .players .paragraph {
         padding-left: 6%;
         padding-top: 60px;
+        padding-bottom: 20px;
         padding-right: 0;
     }
     .players .paragraph__description   {
         font-size: 15px;
         padding-left: 6%;
-        padding-bottom: 42px;
-        padding-right: 0;
+        padding-bottom: 45px;
+        padding-right: 25px;
+    }
+    .block__03 .paragraph__description{
+        padding-bottom: 40px;
+        letter-spacing: 1px;
     }
     .block__04 .paragraph {
         padding-top: 80px;
@@ -804,7 +809,7 @@ li .img__gallery{
     .card h3{
         font-size: 28px;
         margin: 0;
-        padding-top: 35px;
+        padding-top: 34px;
         padding-left: 6%;
         padding-right: 0;
         padding-bottom: 22px;
@@ -814,7 +819,7 @@ li .img__gallery{
         font-size: 16px;
         padding-left: 6%;
         padding-right: 0;
-        padding-bottom: 80px;
+        padding-bottom: 70px;
         
     }
     .contact .card{
@@ -825,13 +830,15 @@ li .img__gallery{
     }
     .contact .card .card__headline {
         padding-left: 6%;
-        padding-top: 40px;
+        padding-top: 34px;
         padding-right: 0;
         padding-bottom: 22px;
     }
     .contact .card p {
         padding-right: 0;
         padding-left: 6%;
+        letter-spacing: 0px;
+        padding-bottom: 80px;
     }
     .square {
         position: absolute;
@@ -853,6 +860,9 @@ li .img__gallery{
         width: 15px;
         background-color: #8f7bc8;
         bottom: 35%;
+    }
+    .work_it .card p{
+        padding-bottom: 63px;
     }
 
 
@@ -892,7 +902,7 @@ li .img__gallery{
     }
     .footer .download{
         padding: 0;
-        margin-top: 73px;
+        margin-top: 70px;
         margin-bottom: 80px;
     }
     .footer .surface_logo {
