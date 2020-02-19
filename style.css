@@ -449,9 +449,6 @@ li .img__gallery{
     .block__03 .paragraph{
         padding-top: 34px;
     }
-    /* .block__03 .paragraph__description{
-        padding-bottom: 10px;
-    }  */
     .basketball {
         left: 43%;
         top: 37px;
@@ -473,12 +470,6 @@ li .img__gallery{
     .block__05 .paragraph__description{
         padding-bottom: 45px;
     }
-    /* .block__06 .paragraph {
-        padding-top: 33px;
-    }
-    .block__06 .paragraph__description{
-        padding-bottom: 38px;
-    } */
     .gallery{
         position: static;
     }
@@ -671,10 +662,6 @@ li .img__gallery{
     .google_play .text {
         margin-right: 25px;
     }
-
-
-
-
     .athlets{
         display: flex;
         flex-wrap: wrap;
@@ -864,12 +851,6 @@ li .img__gallery{
     .work_it .card p{
         padding-bottom: 63px;
     }
-
-
-
-
-
-
     .footer__headline {
         flex-wrap: wrap;
         padding-top: 100px;
